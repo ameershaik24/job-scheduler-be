@@ -1,0 +1,87 @@
+[
+    {
+        "id": "1",
+        "status": "Healthy",
+        "name": "Update content from Google",
+        "notifications": {
+            "phones": [],
+            "emails": []
+        },
+        "timezone": "UTC",
+        "request": {
+            "url": "https://google.co.in",
+            "method": "GET"
+        },
+        "request_interval_seconds": 60,
+        "tolerated_failures": null,
+        "created": "2021-01-12T14:55:15+00:00"
+    },
+    {
+        "id": "2",
+        "status": "Healthy",
+        "name": "Update content from Amazon",
+        "notifications": {
+            "phones": [],
+            "emails": []
+        },
+        "timezone": "UTC",
+        "request": {
+            "url": "https://amazon.in",
+            "method": "GET"
+        },
+        "request_interval_seconds": 600,
+        "tolerated_failures": null,
+        "created": "2021-01-12T14:55:15+00:00"
+    },
+    {
+        "id": "3",
+        "status": "Error",
+        "name": "Update content from Facebook",
+        "notifications": {
+            "phones": [],
+            "emails": []
+        },
+        "timezone": "UTC",
+        "request": {
+            "url": "https://fb.in",
+            "method": "GET"
+        },
+        "request_interval_seconds": 60,
+        "tolerated_failures": null,
+        "created": "2021-01-12T14:55:15+00:00"
+    },
+    {
+        "id": "4",
+        "status": "Paused",
+        "name": "Update content from Apple",
+        "notifications": {
+            "phones": [],
+            "emails": []
+        },
+        "timezone": "UTC",
+        "request": {
+            "url": "https://apple.in",
+            "method": "GET"
+        },
+        "request_interval_seconds": 240,
+        "tolerated_failures": null,
+        "created": "2021-01-12T14:55:15+00:00"
+    },
+    {
+        "id": "5",
+        "status": "Created",
+        "name": "Update content from Netflix",
+        "notifications": {
+            "phones": [],
+            "emails": []
+        },
+        "timezone": "UTC",
+        "request": {
+            "url": "https://netflix.in",
+            "method": "GET"
+        },
+        "request_interval_seconds": 240,
+        "tolerated_failures": null,
+        "created": "2021-01-12T14:55:15+00:00"
+    }
+]
